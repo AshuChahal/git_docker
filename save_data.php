@@ -1,8 +1,8 @@
 <?php
 // Database connection settings
-$host = '127.0.0.1';
-$username = 'root';
-$password = '';
+$host = '47.245.98.49';
+$username = 'new_username';
+$password = 'dc@ashu12AS';
 $database = 'mydb';
 
 // Create a connection to the database
@@ -35,3 +35,5 @@ if ($stmt->execute()) {
 $stmt->close();
 $conn->close();
 ?>
+
+
